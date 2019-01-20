@@ -1,10 +1,13 @@
-## This directory contains picprog sources
+## This directory contains picprog & usbpwr sources
 
 In order to make this project you must load "libftd2xx.a" static library from ftdichip.com, it's linked statically.
+
+Simply $make
 
 ### Short description
 
 This project is command-line utility "picprog" which can be used for PIC10, PIC12, PIC16 programming.
+Utility "usbpwr" can be used for powering your device from USB.
 
 ### Invocation
 
@@ -45,12 +48,27 @@ Saved data can be found in out.hex.
 
 ### Important
 
-1. Connect your programmer to USB port.
+1. Attach programmer to USB port.
 2. Run picprog.
 3. After prompt appeares, asking continue or not, then connect programmer to your device.
 4. Confirm "y" (or maybe "n").
 5. After successful (or not) programming disconnect programmer from device.
 6. Answer "n".
 7. Detach programmer from USB port.
+
+The same order corresponds to usbpwr. Attach programmer to USB, then run "usbpwr", and then connect programmer to your device. 
+
+usbpwr commands are :
+
+pu  - power up
+
+pd  - power down
+
+exit  - exit
+
+Disconnect programmer from your device and then detach from USB.
+
+
+
 
 ### Have a nice PIC!
