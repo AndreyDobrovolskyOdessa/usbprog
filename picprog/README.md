@@ -1,6 +1,6 @@
 ## This directory contains picprog & usbpwr sources
 
-In order to make this project you must load "libftd2xx.a" static library from ftdichip.com, it's linked statically.
+In order to make this project you must load appropriate FTDI driver from https://www.ftdichip.com/Drivers/D2XX.htm.  We need "libftd2xx.a" static library and headers "ftd2xx.h" and "WinTypes.h".
 
 Simply $make
 
