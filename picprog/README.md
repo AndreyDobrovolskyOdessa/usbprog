@@ -19,7 +19,7 @@ Commands are:
 * rd  - read data
 * rc  - read configuration
 * sa  - save all (only words pointed in input .hex file)
-* ml  - merge input file with calibration values read previously (if selected processor needs to)
+* mk  - merge input file with calibration values read previously (if selected processor needs to)
 * ea  - erase all
 * wp  - write program
 * vp  - verify program
