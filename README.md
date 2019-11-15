@@ -10,4 +10,4 @@ VDD discharge circuit with limited fall speed.
 
 Programming voltage got using MC34063 boost convertor. Programming voltage set manually.
 
-Can be used for programming externelly powered devices.
+Can be used for programming externally powered devices.
